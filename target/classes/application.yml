@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/SecureBack
+    username: postgres
+    password: postgrespw
+  liquibase:
+    default-schema: public
+    liquibase-schema: public
+    change-log: classpath:db/changelog-master.yml
+    enabled: true
