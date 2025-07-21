@@ -5,7 +5,7 @@ databaseChangeLog:
       author: constantin-noel
       changes:
         - createTable:
-            schemaName: public
+            schemaName: proj
             tableName: user
             columns:
               - column:
